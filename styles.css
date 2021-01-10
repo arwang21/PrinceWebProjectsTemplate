@@ -1,0 +1,16 @@
+* {
+    margin: 0; padding: 0;
+   
+  }
+  
+.logo{
+    font-size: 20px;
+    font-family: minion-pro;
+}
+
+
+@media screen and (max-width: 800px) {
+    h3 {
+      color: red;
+    }
+  }
