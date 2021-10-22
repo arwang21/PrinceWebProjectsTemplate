@@ -2,19 +2,16 @@
 <html>
   <head>
     <!-- usually this can just be the headline, but check in -->
-    <title>Headline headline!</title>
+    <title>This Week in Photos: October 17-23</title>
     <!-- 
-        CHANGE THIS! "preview-img.png" defines what the preview image will be for 
-        links and social media, so be sure to change this to whatever the
-         dominant media will be
+        preview image
     -->
-    <meta property= "og:image" content= "preview-img.png">
+    <meta property= "og:image" content="preview.jpg">
 
     <!--
-        CHANGE THIS! Make the content something meaningful to the article
-        (reach out to editor for suggestions if needed)
+        preview description
     -->
-    <meta property=“og:description” content= "This is an amazing article" />
+    <meta property=“og:description” content= "Images of home." />
 
     <!-- defines standard character set—useful for ensuring curly quotes
       aren't corrupted by different encodings -->
@@ -38,25 +35,115 @@
       gtag('config', 'G-H0QFG1LJXS');
     </script> -->
      <!--/site tag-->
- 
-    <!-- 
-        a reference to our brand fonts (if there's any Adobe font not 
-        available on the stylesheet, let the head digital news 
-        editor know and it can be added) 
-    -->
-    <link rel="stylesheet" href="https://use.typekit.net/gkx8zdh.css">
+
 
     <!-- reference to your CSS -->
     <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <link rel="stylesheet" href="https://use.typekit.net/gkx8zdh.css">
+    <link rel="stylesheet" href="https://use.typekit.net/kha5kwj.css">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Italiana|Marcellus+SC">
     
     <!-- reference to your JavaScript -->
-    <script src="script.js"></script>
+    <script defer src="script.js"></script>
     
     <!-- add references to additional scripts here if needed -->
   </head>
   <body>
     <!-- Content goes here -->
-    <p class = logo style="text-align: center; "><a href="https://www.dailyprincetonian.com">THE DAILY PRINCETONIAN</a></p>
+    <div class="logo centered"><a href="https://www.dailyprincetonian.com">THE DAILY PRINCETONIAN</a></div>
+    <section id="titles">
+      <div class="centered">
+        <h2 id="overline">PHOTO STORY</h2>
+        <h1 id="headline">This Week in Photos: Oct. 17-23</h1>
+        <h3 id="byline">Photos & Web Design by Amanda Wang '25</h1>
+      </div>
+    </section>
+
+    <section id="intro">
+      <div id="introTitle">
+        <h3>INTRODUCTION</h3>
+        <h2>Remembering & Reflecting</h2>
+      </div>
+      <div id="text">
+        <p>
+          It's been about two months since I first arrived at Princeton: two months
+          since I stood at the edge of the window in my room, crying silently to 
+          Taylor Swift's iconic "22" being blasted from First Courtyard, all while 
+          trying to get a last glimpse of my family as they drove away. 
+        </p>
+        <br>
+        <p>
+            In what proved to be the busiest, scariest, and happiest two months of my life,
+          I gradually began to let go of some of the caution, worry, and doubt that I unconsciously
+          brought with me. I may have changed a bit along the way, but those changes were small and felt alright; 
+          I tried to spend more time outside; I tried to smile more often; I gave more hugs.
+          Princeton, once a distant dream, had somehow become my reality, and I began to 
+          feel less uneasy about that.
+        </p>
+        <br>
+        <p>
+            As Fall Break approached, I gave very little thought to the prospect of going 
+          home. Midterms played a part, but the other part was just a sense of
+          prolonged distance from the life I'd had when I'd been at home. Princeton didn't 
+          quite feel like "home" to me (yet?), but at the same time, I felt like a vastly different 
+          person from the girl who called that red-brick house "home". Midterms went by
+          surprisingly quickly, though, and sooner than I realized, I was back in the very car
+          that I'd watched drive away two months ago.
+        </p>
+        <br>
+        <p>
+            Being home has been interesting. Knowing that I'll be leaving in a week, I try not to
+          get too used to it, but I also try to take in and appreciate every moment while
+          I'm here. Sometimes, a certain angle of the light or a specific smell tosses
+          back memories I didn't realize I'd left behind, and for a brief moment I'll let them 
+          creep into the present. 
+        </p>
+        <br>
+        <p>Sometimes, I'll even catch them in a photo.</p>
+      </div>
+    </section>
+  
+    <section class="main">
+      <div id="photos">
+        <div class="row hidden">
+          <img src="photo1.jpg" class="left">
+          <div class="right hidden">
+            <p class="caption-title">Saturday evening</p>
+            <p class="caption">On the car ride home.</p>
+          </div>
+        </div>
+        <div class="row hidden">
+          <div class="left hidden">
+            <p class="caption-title">Sunday evening</p>
+            <p class="caption">Not-so-early morning sunlight, from the perspective of some fuzzy blankets.</p>
+          </div>
+          <img src="photo2.jpg" class="right">
+        </div>
+        <div class="row hidden">
+          <img src="photo4.jpg" class="left">
+          <div class="right hidden">
+            <p class="caption-title">Monday afternoon</p>
+            <p class="caption"> An afternoon walk through the forest in my backyard.</p>
+          </div>
+        </div>
+        <div class="row hidden">
+          <div class="left hidden">
+            <p class="caption-title">Tuesday evening</p>
+            <p class="caption">Sunlight in the corner of the staircase.</p>
+          </div>
+          <img src="photo5.jpg" class="right">
+        </div>
+        <div class="row hidden">
+          <img src="photo6.jpg" class="left">
+          <div class="right hidden">
+            <p class="caption-title">Wednesday evening</p>
+            <p class="caption">Sunset against my bedroom wall.</p>
+          </div>
+        </div>
+      </div>
+    </section> 
 
   </body>
 

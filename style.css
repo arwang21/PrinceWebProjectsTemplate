@@ -1,18 +1,197 @@
 * {
     margin: 0; padding: 0;
     font-family: minion-pro;
-   
+    background-color: #faf7f4;
   }
-  
 
-
-.logo a{
-    color: black;
-    text-decoration: none;
-    font-size: 30px;
-    
+h2 {
+  color: black;
+  font-size: 35px;
+  font-family: adobe-garamond-pro;
+  font-style: italic;
+  font-weight: 200;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
+h3 {
+  color: black;
+  font-size: 20px;
+  font-family: 'Marcellus SC';
+  font-style: italic;
+  letter-spacing: .1rem;
+  font-weight: 200;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.caption {
+  background-color: #4b3e32;
+  color: #faf7f4;
+  font-family: adobe-garamond-pro;
+  font-style: italic;
+  font-size: 20px;
+  font-weight: 100;
+  padding-top: 10px;
+}
+
+.caption-title {
+  background-color: #4b3e32;
+  color: #faf7f4;
+  font-family: adobe-garamond-pro;
+  font-size: 35px;
+}
+
+.centered {
+  text-align: center;
+}
+
+.hidden {
+  opacity: 0%;
+}
+
+.left {
+  width: 55%;
+  padding-right: 20px;
+  text-align: right;
+  background-color: #4b3e32;
+  margin-right: auto;
+}
+
+.left.in-view {
+  animation: 2s fadeUp;
+}
+
+.logo a{
+  color: black;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.logo {
+  padding-top: 10px;
+  font-family: minion-pro, times, serif;
+}
+
+.main {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: #4b3e32;
+  color: #e4e2de;
+}
+
+.right {
+  width: 55%;
+  margin-left: auto;
+  padding-left: 20px;
+  text-align: left;
+  background-color: #4b3e32;
+}
+
+.right.in-view {
+  animation: 2s fadeUp;
+}
+
+.row {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  display: flex;
+  flex-direction: row;
+  background-color: #4b3e32;
+  color: #e4e2de;
+}
+
+.row.in-view {
+  animation: 3s fadeIn;
+}
+
+#byline {
+  color: #4b3e32;
+  font-size: 18px;
+  font-family: adobe-garamond-pro;
+  font-weight: 400;
+  font-style: italic;
+  animation: 3s fadeIn;
+}
+
+#headline {
+  color: black;
+  font-size: 60px;
+  font-family: 'Italiana';
+  font-weight: 200;
+  margin-bottom: 10px;
+  animation: 2s fadeIn;
+}
+
+#intro {
+  color: #4b3e32;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 5%;
+  display: flex;
+  flex-direction: row;
+  animation: 3s fadeIn;
+}
+
+#introTitle {
+  padding-right: 10%;
+  padding-left: 10%;
+  text-align: right;
+  animation-name: fadeUp;
+  animation-duration: 2s;
+}
+
+#overline {
+  color: #4b3e32;
+  font-size: 20px;
+  font-family: 'Marcellus SC';
+  font-weight: 200;
+}
+
+#photos {
+  margin-left: 15%;
+  margin-right: 15%;
+  display: flex;
+  flex-direction: column;
+  background-color: #4b3e32;
+  color: #e4e2de;
+}
+
+#text {
+  font-family: adobe-garamond-pro;
+  font-weight: 300;
+  font-size: 18px;
+  text-align: left;
+  margin-left: auto;
+}
+
+#titles {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  color: #4b3e32;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 20%;
+  }
+
+  to {
+    opacity: 100%;
+  }
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 20%;
+    margin-top: 5%;
+  }
+
+  to {
+    opacity: 100%;
+    margin-top: 0%;
+  }
+}
 
 /* sets different rules for narrower screens (usually meaning mobile) If
 you want to quickly test how this works on your computer, just make your 
